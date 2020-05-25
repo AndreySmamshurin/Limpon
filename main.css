@@ -1,0 +1,74 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+@font-face {
+    font-family: 'MyriadProRegular';
+    src: url(fonts/MyriadProRegular.ttf);
+}
+
+.main-wrapper {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+
+.menu {
+    margin-top: 78px;
+}
+.menu-list > li {
+    list-style-type: none;
+}
+
+.menu-list {
+    display: flex;
+    padding: 0;
+}
+
+.link40 {
+    margin-right: 10px;
+}
+
+.menu-list > li > .menu-link {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    color: #6e7ea9;
+    text-decoration:  none;
+    margin-right: 43px;
+}
+
+.menu-list > li .btn-free  {
+    font-family: 'MyriadProRegular';
+    font-weight: 400;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration:  none;
+    padding: 25px 57px;
+    background: #1085e4;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.menu-list > li .btn-free:hover {
+    background: #fff;
+    color: #1085e4;
+    border: 2px solid #1085e4;
+}
+
+.header-logo {
+    background-image: url(img/logo.png);
+    width: 181px;
+    height: 49px;
+    background-repeat: no-repeat;
+}
+
+.main-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+
