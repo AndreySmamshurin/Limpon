@@ -162,21 +162,14 @@ body {
 
 
 
-/*--------------WWORK FOR GRID------------------*/
+/*--------------WORK FOR GRID------------------*/
 
 
-.card-one {
+.card-grid {
     text-align: center;
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 8px 16px 0px rgba(180, 181, 181, 0.2);
-}
-
-.best-features-container {
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-auto-rows: minmax(250px, auto);
 }
 
 .best-features-taitel > span {
@@ -186,6 +179,7 @@ body {
     color: #1085e4;
     text-transform: uppercase;
     letter-spacing: 3px;
+    margin-bottom: 20px;
 }
 
 .best-features-taitel {
@@ -193,25 +187,37 @@ body {
     font-size: 40px;
     font-weight: 700;
     color: #192b59;
+    letter-spacing: -1px;
 }
 
 .card-one-text-taitel {
     font-size: 20px;
     font-weight: 600;
     color: #192b59;
-    letter-spacing: -0.3px;
+    letter-spacing: -0.6px;
+    margin-top: 24px;
+    margin-bottom: 20px;
 }
 
 .card-one-text {
     font-size: 16px;
     color: #7581a1;
     line-height: 26px;
+    margin-bottom: 22px;
+    max-width: 270px;
+    margin: 0 auto;
 }
 
 .link-more {
     font-size: 14px;
     color: #1085e4;
     font-weight: 600;
+    margin-top: 22px;
+}
+
+.link-more > a{
+    text-decoration: none;
+    color: #1085e4;
 }
 
 .main-bottom-text {
@@ -224,6 +230,8 @@ body {
     color: #192b59;
     font-size: 16px;
     font-weight: 700;
+    margin-left: 5px;
+    margin-top: 15px;
 }
 
 .bottom-text > span {
@@ -232,10 +240,93 @@ body {
     font-weight: 400;
 }
 
-.best-features-container div:nth-child(8) {
-    grid-column: 2 / -1;
+.best-features-container {
+    margin-top: 121px;
+    display: grid;
+    grid-gap: 35px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "a b c"
+                          "d b c"
+                          "d e f"
+                          "g e f"
+                          "g h h"
+
+
 }
 
-.best-features-container div:nth-child(1) {
-    grid-column: 2 / -1;
+.best-features-taitel {
+    grid-area: a;
+    margin-bottom: 6px;
+}
+
+.card-one {
+    grid-area: d;
+}
+
+.card-two {
+    grid-area: b;
+}
+
+.card-three {
+    grid-area: c;
+}
+
+.card-four {
+    grid-area: g;
+}
+
+.card-five {
+    grid-area: e;
+}
+
+.card-six {
+    grid-area: f;
+}
+
+.bottom-text-card {
+    grid-area: h;
+    margin-left: 19px;
+}
+
+img.card-grid-2 {
+    margin-left: 20px;
+}
+
+.img-grid {
+    margin-top: 60px;
+}
+
+img.card-grid-3 {
+    margin-left: 16px;
+    margin-bottom: 10px;
+    margin-top: 45px;
+}
+
+img.card-grid-1 {
+    margin-bottom: 10px;
+}
+
+img.card-grid-4 {
+    margin-top: 32px;
+    margin-left: 31px;
+    margin-bottom: 10px;
+}
+
+img.card-grid-5 {
+    margin-bottom: 10px;
+    margin-top: 41px;
+    margin-left: 14px;
+}
+
+img.card-grid-6 {
+    margin-top: 44px;
+    margin-bottom: 10px;
+}
+
+.link-more-two {
+    margin-bottom: 68px;
+}
+
+.link-more-four {
+    margin-bottom: 71px;
 }
