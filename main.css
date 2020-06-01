@@ -542,6 +542,7 @@ dl.software-list {
 /*---------NEW-SECTION----------*/
 .facts {
     background-color: #edf6ff;
+    position: relative;
 }
 
 
@@ -595,6 +596,10 @@ dl.software-list {
 }
 
 /*------------NEWDECTION--------------*/
+
+.landingpage {
+    position: relative;
+}
 
 .landingpage-container {
     display: flex;
@@ -1102,3 +1107,185 @@ dl.software-list {
     margin-top: 163px;
 }
 
+/*------------NEWSECTION--------------*/ 
+
+.team {
+    background: url(img/team-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; 
+}
+
+.team-text {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.team-text h2 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: -1.2px;
+    margin-bottom: 139px;
+}
+
+.team-text h2 > span {
+    color: #85c8ff;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 3.6px;
+    margin-bottom: 21px;
+    padding-top: 116px;
+    display: block;
+    text-transform: uppercase;
+}
+
+.team-card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.team-card {
+    background-color: #fff;
+    box-shadow: 0px 8px 16px 0px rgba(180, 181, 181, 0.2);
+    flex-basis: 31.5%;
+    text-align: center;
+    position: relative;
+}
+
+.team-card img {
+    position: absolute;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+    top: -86px;
+}
+
+.team-card-text {
+    text-align: center;
+}
+
+.team-card-text p {
+    color: #192b59;
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: -0.8px;
+    padding-bottom: 72px;
+    padding: 213px 0 0 0;
+    margin-top: 0;
+}
+
+.team-card-text p > span {
+    color: #1a88e1;
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 2.5px;
+    margin-bottom: 10px;
+    display: block;
+    text-transform: uppercase;
+}
+
+button.team-btn {
+    width: 50px;
+    height: 50px;
+    border: none;
+    margin-bottom: 39px;
+    border-radius: 100%;
+    background-color: #f3f3f3;
+    transition: 0.3s;
+}
+
+button.team-btn:hover > i.fas.fa-plus {
+    color: #fff;
+}
+
+button.team-btn:hover {
+    background-color: #1a88e1;
+}
+
+i.fas.fa-plus {
+    color: #a1aecf;
+    transition: 0.3s;
+}
+
+button.team-btn:focus {
+    outline: none;
+}
+
+.social-networks {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px;
+}
+
+.social-networks li {
+    list-style-type: none;
+}
+
+.social-networks li  > a {
+    color: #9ea6b1;
+    text-decoration: none;
+} 
+
+.fab {
+    font-weight: 400;
+    width: 50px;
+    height: 50px;
+    background-color: #f3f3f3;
+    border-radius: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.social-networks li:hover  > a {
+    color: #fff;
+}
+
+.fab:hover {
+    background-color: #1a88e1;
+}
+
+/*------BG-FIGA-----*/
+
+.circle-bg {
+    background: url(img/circle-bg.png);
+    background-repeat: no-repeat;
+    width: 663px;
+    height: 663px;
+    position: absolute;
+    left: -367px;
+    top: -488px;
+}
+
+.rhombus-bg {
+    background: url(img/rhombus-bg.png);
+    background-repeat: no-repeat;
+    width: 673px;
+    height: 673px;
+    position: absolute;
+    right: 0;
+    top: -220px;
+    display: block;
+    background-size: contain;
+    background-position-x: 178px;
+}
+
+.intro-container {
+    position: relative;
+}
+
+.intro-text {
+    position: absolute;
+    font-size: 300px;
+    font-weight: 800;
+    color: #f5f5f5;
+    top: -0px;
+    left: 210px;
+    z-index: -1;
+    letter-spacing: -9px;
+}
+
+/*------------NEWSECTION--------------*/ 
