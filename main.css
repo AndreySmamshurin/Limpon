@@ -1418,4 +1418,44 @@ i.fab.fa-telegram-plane {
     top: 60px;
 }
 
+/* ------------FOOTER------------ */
+
+footer {
+    background-color: #192b59;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.footer-container p {
+    color: #b6bae0;
+    font-size: 16px;
+}
+
+.footer-container p > span {
+    color: #1085e4;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.footer-list {
+    display: flex;
+}
+
+.footer-list li {
+    margin-right: 27px;
+    list-style-type: none;
+}
+
+.footer-list li:last-child {
+    margin-right: 0;
+}
+
+.footer-list li > a {
+    color: #fff;
+    font-size: 14px;
+}
 
