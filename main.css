@@ -391,7 +391,7 @@ img.card-grid-6 {
     flex-basis: 49%;
 }
 
-input[type=email] {
+.email-form input[type=email] {
     background: none;
     font-size: 14px;
     display: block;
@@ -1143,6 +1143,7 @@ dl.software-list {
 .team-card-container {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 120px;
 }
 
 .team-card {
@@ -1227,7 +1228,7 @@ button.team-btn:focus {
     text-decoration: none;
 } 
 
-.fab {
+.team .fab {
     font-weight: 400;
     width: 50px;
     height: 50px;
@@ -1244,7 +1245,7 @@ button.team-btn:focus {
     color: #fff;
 }
 
-.fab:hover {
+.team .fab:hover {
     background-color: #1a88e1;
 }
 
@@ -1289,3 +1290,132 @@ button.team-btn:focus {
 }
 
 /*------------NEWSECTION--------------*/ 
+
+.form {
+    background: url(img/form-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-container {
+    max-width: 1054px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 121px;
+}
+
+.form-container-item {
+    flex-basis: 49%;
+}
+
+.form-container-item h2 {
+    color: #192b59;
+    font-size: 50px;
+    font-weight: 600;
+    max-width: 480px;
+    letter-spacing: -1.5px;
+    margin-bottom: 49px;
+    margin-top: 110px;
+    line-height: 1.2;
+}
+
+.input-item input::-webkit-input-placeholder {color:#8995b3;}
+.input-item input::-moz-placeholder          {color:#8995b3;}
+.input-item input:-moz-placeholder           {color:#8995b3;}
+.input-item input:-ms-input-placeholder      {color:#8995b3;}
+
+textarea::placeholder {
+    color: #8995b3;
+}
+
+.input-item input {
+    background: #fff;
+    font-size: 14px;
+    display: block;
+    box-sizing: border-box;
+    border: 2px solid #dce4ec;
+    border-radius: 35px;
+    padding: 25px 38px;
+    width: 100%;
+    color: #192b59;
+    transition: 0.3s;
+    outline: none;
+}
+
+textarea {
+    background: #fff;
+    font-size: 14px;
+    display: block;
+    box-sizing: border-box;
+    border: 2px solid #dce4ec;
+    border-radius: 35px;
+    padding: 25px 38px;
+    width: 100%;
+    color: #192b59;
+    transition: 0.3s;
+    outline: none;
+    min-height: 160px;
+    resize: none;
+}
+
+.submit-btn {
+    background: #1085e4;
+    border: 1px solid #1085e4;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1.7px;
+    padding: 22px 52px 22px 75px;
+    border-radius: 30px;
+    transition: 0.4s;
+    outline: none;
+}
+
+.input-item {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+i.fas.fa-user, i.fas.fa-envelope {
+    position: absolute;
+    top: calc(50% - 7px);
+    right: 8%;
+    color: #8995b3;
+    font-size: 14px;
+}
+
+i.fas.fa-pen {
+    position: absolute;
+    top: 18%;
+    right: 8%;
+    font-size: 14px;
+    color: #8995b3;
+}
+
+.pen {
+    margin-bottom: 39px;
+}
+
+.form-submit-btn {
+    position: relative;
+    max-width: 231px;
+}
+
+i.fab.fa-telegram-plane {
+    position: absolute;
+    top: calc(50% - 7px);
+    right: 71%;
+    font-size: 15px;
+    color: #fff;
+}
+
+.screenshot-form-container {
+    align-items: center;
+    display: flex;
+    position: relative;
+    top: 60px;
+}
+
+
